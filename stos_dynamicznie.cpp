@@ -24,7 +24,7 @@ element * push(int liczba, element *wierzcholek)
 element * pop(int *liczba, element *wierzcholek)
 {
 
-    if(wierzcholek==nullptr) return 0;
+    //if(wierzcholek==nullptr) return 0;
 
     element *w;
 
@@ -49,11 +49,6 @@ int main()
     cout<<"ze stosu: "<<liczba<<endl;
 
 
-    while(stos!=nullptr)
-    {
-        cout<<stos->dane<<endl;
-        stos=stos->poprzedni;
-    }
 
 
 }
